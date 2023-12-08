@@ -39,7 +39,6 @@ RUN yum -y install \
            iputils \
            less \
            pciutils \
-           ltrace \
            mailx \
            man-db \
            nc \
