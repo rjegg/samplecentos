@@ -48,7 +48,6 @@ RUN yum -y install \
            numactl \
            numactl-devel \
            passwd \
-           perf \
            procps-ng \
            psmisc \
            screen \
@@ -79,7 +78,6 @@ RUN yum -y install \
            netcat \
            curl \
            unzip \
-           less \
            && yum clean all
 
 # Set default command
